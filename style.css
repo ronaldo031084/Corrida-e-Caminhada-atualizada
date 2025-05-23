@@ -1,0 +1,32 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+main {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+}
+img {
+  width: 100%;
+  max-width: 500px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input, select, button {
+  padding: 10px;
+  font-size: 1rem;
+}
+.pix {
+  background: #eee;
+  padding: 10px;
+  word-break: break-word;
+}
+.hidden {
+  display: none;
+}
